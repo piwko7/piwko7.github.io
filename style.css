@@ -910,58 +910,6 @@ body.dark .work-links img {
 }
 
 /* --------------------------------- */
-/* ----- Testimonials -----*/
-/* --------------------------------- */
-
-.testimonials {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--gutter-small);
-  margin-block-start: var(--gutter-x-large);
-  max-inline-size: var(--site-max-width);
-  margin-inline: auto;
-  padding-block-end: var(--gutter-large);
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  list-style-type: none;
-}
-
-.testimonial {
-  scroll-snap-align: start;
-  max-inline-size: 475px;
-  min-inline-size: 475px;
-  border: 1px solid var(--border);
-  padding: var(--gutter-small);
-  background-color: var(--bg-color-secondary);
-  border-radius: var(--gutter-nano);
-}
-
-.testimonial-text {
-  margin-block-end: var(--gutter-x-small);
-}
-
-.testimonial-author {
-  display: flex;
-  align-items: center;
-  gap: var(--gutter-micro);
-}
-
-.testimonial-author-name {
-  margin-block-end: 0.3rem;
-}
-
-.testimonial-author-name,
-.testimonial-author-job {
-  font-size: initial;
-}
-
-.testimonial-author > img {
-  block-size: 52px;
-  inline-size: 52px;
-  border-radius: 50%;
-}
-
-/* --------------------------------- */
 /* ----- Skills -----*/
 /* --------------------------------- */
 
