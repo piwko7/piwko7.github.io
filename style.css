@@ -462,7 +462,7 @@ main {
   position: fixed;
   width: 100%;
   background-color: #2b292a;
-  background-image: var(--gradient-brand);
+  background-image: var(--gradient);
   transition: 450ms var(--easing);
   z-index: 3;
 }
